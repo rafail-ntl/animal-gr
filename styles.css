@@ -38,6 +38,7 @@ body {
 
 button {
   cursor: pointer;
+  font-family: "Cera Pro", Arial;
 }
 
 /* HEADER */
@@ -348,6 +349,33 @@ main {
   line-height: 23px;
 }
 
+/* PICK YOUR PET */
 
+.pick-your-pet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.pick-your-pet .section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
 
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button-container button {
+  background-color: #191445;
+  width: 190px;
+  border-radius: 20px;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+}
