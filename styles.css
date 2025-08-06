@@ -379,3 +379,22 @@ main {
   color: #fff;
   font-size: 20px;
 }
+
+/* SITE DESCRIPTION */
+
+.site-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.site-description h1 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.site-description p {
+  text-align: center;
+  font-size: 16px;
+}
