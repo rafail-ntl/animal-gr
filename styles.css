@@ -261,6 +261,19 @@ main {
   font-weight: 700;
 }
 
+.sold-out {
+  background-color: #CE3A3A;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  position: absolute;
+  color: #fff;
+  top: 20px;
+  right: 0;
+  padding: 5px 10px;
+  box-shadow: 2px 1px 7px #00000039;
+}
+
 .product-info {
   display: flex;
   flex-direction: column;
